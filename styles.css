@@ -299,11 +299,18 @@ main {
     min-width: 288px;
     max-width: 400px;
     height: 150px;
-    margin: 15px auto;
+    margin: 15px 10px auto;
     padding: 15px;
     background-color:var(--warm-black);
     border-radius: 5px;
     box-shadow:0 4px 8px rgba(0,0,0,0.16)
+}
+.product-cards--container{
+    display:flex;
+    flex-wrap: wrap;
+    margin:auto;
+    justify-content: center;
+    max-width: 900px;
 }
 .product-detail--card .icon-card {
     display:inline-block;
